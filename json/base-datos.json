@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "titulo": "REMERA - 01",
+        "precio": 49999,
+        "imagen": "../assets/img/ropa/remera.png"
+    },
+    {
+        "id": 2,
+        "titulo": "PANTALON - 01",
+        "precio": 39999,
+        "imagen": "../assets/img/ropa/pantalon.png"
+    },
+    {
+        "id": 3,
+        "titulo": "SHORT - 01",
+        "precio": 29999,
+        "imagen": "../assets/img/ropa/short.png"
+    },
+    {
+        "id": 4,
+        "titulo": "REMERA - 02",
+        "precio": 23999,
+        "imagen": "../assets/img/ropa/remera2.png"
+    },
+    {
+        "id": 5,
+        "titulo": "PANTALON - 02",
+        "precio": 44999,
+        "imagen": "../assets/img/ropa/pantalon2.png"
+    },
+    {
+        "id": 6,
+        "titulo": "SHORT - 02",
+        "precio": 15999,
+        "imagen": "../assets/img/ropa/short2.png"
+    }
+]
