@@ -18,14 +18,14 @@ function mostrarCarrito() {
     carrito.forEach((producto, index) => {
         acumuladoTotal += producto.precio * producto.cantidad;
 
-        // corregir ruta de imagen para que funcione en carrito.html
-        const rutaCorregida = producto.imagen.replace('./', '../');
-
         const article = document.createElement("article");
         article.classList.add("carritoCardInfo");
 
+        // corregir ruta de imagen para que funcione en carrito.html
+        const rutaCorregida = producto.imagen.replace('./', '../');
+
         article.innerHTML = `
-            <img src="${producto.imagen}" alt="${producto.titulo}">
+            <img src="${rutaCorregida}" alt="${producto.titulo}">
             <h3>${producto.titulo}</h3>
             <p>Precio: $${producto.precio.toLocaleString('es-AR', { minimumFractionDigits: 2 })}</p>
             
