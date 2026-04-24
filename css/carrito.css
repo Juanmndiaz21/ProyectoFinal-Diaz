@@ -1,0 +1,131 @@
+.carritoCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    width: 70%;
+    margin: 5rem auto;
+}
+
+.carritoCardInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 16px 33px 16px 16px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.carritoCardInfo:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+    transform: scale(1.01);
+    transition: transform 0.4s;
+}
+
+.carritoCardInfo img {
+    width: 100px;
+    height: 100px;
+}
+
+.carritoCardInfo h3,
+.carritoCardInfo p {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+
+.cardBotones {
+    padding: .5rem;
+    border: none;
+    background-color: #1c1c2b;
+    color: white;
+}
+
+.cardBotonesContenedor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    background-color: #1c1c2b;
+    padding: .2rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.carritoFinalizarCompra {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    padding: 16px;
+    border: 1px solid #ccc;
+}
+
+.carritoFinalizarCompra button {
+    padding: .5rem;
+    border: none;
+    background-color: #484870;
+    color: white;
+    font-size: 16px;
+    margin-top: 1rem;
+    border-radius: 20px;
+    border: 1px solid #000000;
+}
+
+.carritoFinalizarCompra button:hover {
+    background-color: #5a5a8b;
+    transition: .3s;
+}
+
+.carritoFinalizarCompra h2 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
+
+.carritoFinalizarCompra p {
+    font-size: 14px;
+}
+
+.carritoGeneral {
+    display: flex;
+    flex-direction: row;
+}
+
+.eliminarProducto {
+    background-color: transparent;
+    border: none;
+    color: #ff4d4d;
+    cursor: pointer;
+}
+.eliminarProducto:hover {
+    color: darkred;
+}
+
+.carritoTotal{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #1C1C2B;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 50%;;
+    margin: auto;
+}
+
+.carritoVacio {
+    margin-top: 10rem;
+    text-align: center;
+    color: #ffffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
