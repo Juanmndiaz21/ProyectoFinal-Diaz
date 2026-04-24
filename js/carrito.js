@@ -18,6 +18,9 @@ function mostrarCarrito() {
     carrito.forEach((producto, index) => {
         acumuladoTotal += producto.precio * producto.cantidad;
 
+        // corregir ruta de imagen para que funcione en carrito.html
+        const rutaCorregida = producto.imagen.replace('./', '../');
+
         const article = document.createElement("article");
         article.classList.add("carritoCardInfo");
 
